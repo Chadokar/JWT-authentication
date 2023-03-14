@@ -19,7 +19,7 @@ const requireAuth = (req, res, next) => {
     res.redirect("/login");
   }
 };
-
+const a = 0;
 // check current user
 const checkUser = (req, res, next) => {
   const token = req.cookies.jwt;
